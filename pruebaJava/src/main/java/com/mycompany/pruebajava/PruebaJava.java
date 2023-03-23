@@ -2,15 +2,13 @@
 
 package com.mycompany.pruebajava;
 
-import Ejercicios.Factorial;
-import Ejercicios.Primo;
+import Ejercicios.UtilMath;
 
 public class PruebaJava {
     public static void main(String[] args) {
-        System.out.println("El factorial de 3 es " + Factorial.calcularFactorial(3));
-        System.out.println(Primo.numberSumatory(6));
-        System.out.println(Primo.numberSumatory(5));
-        System.out.println("");
+        System.out.println("El factorial de 3 es " + UtilMath.calcularFactorial(3));
+        System.out.println(UtilMath.numberSumatory(6));
+        System.out.println(UtilMath.numberSumatory(5));
     }
 
 }

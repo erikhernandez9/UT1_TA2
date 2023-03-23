@@ -1,6 +1,14 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package Ejercicios;
 
-public class Primo {
+/**
+ *
+ * @author Erik Hernandez
+ */
+public class UtilMath {
     public static boolean isPrime(long n) {
         boolean prime = true;
         for (long i = 3; i <= Math.sqrt(n); i += 2)
@@ -33,5 +41,13 @@ public class Primo {
            return countImpar;
         }
         return countPar;
+    }
+    
+    public static int calcularFactorial(int num){
+        int resultado = 1;
+        for(int i = 1; i <= num; i++){
+            resultado *= i;
+        }
+        return resultado;
     }
 }

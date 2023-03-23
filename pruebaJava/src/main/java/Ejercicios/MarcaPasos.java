@@ -9,5 +9,12 @@ package Ejercicios;
  * @author Erik Hernandez
  */
 public class MarcaPasos {
+    public byte presionSanguinea;
+    public byte frecuenciaCardiaca;
+    public short azucarEnSangre;
     
+    public long fuerzaExpuesta;
+    public float latidos;
+    public float bateria;
+    public String codigoFabricante;
 }

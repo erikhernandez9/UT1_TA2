@@ -1,4 +1,4 @@
-package com.mycompany.pruebajava;
+package Ejercicios;
 
 public class Primo {
     public static boolean isPrime(long n) {
